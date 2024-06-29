@@ -1,0 +1,54 @@
+.Color-my-name {
+    color: rgb(235, 98, 7);
+}
+
+.HeaderImage {
+    background-image: url(bg1.jpg);
+
+}
+
+.HireME {
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(rgb(238, 172, 172), rgb(243, 122, 22));
+    padding: 10px 10px;
+
+}
+
+.bg1 {
+    background-image: linear-gradient(#BC70A4, #BFD641);
+}
+
+h1 {
+    font-size: 45px;
+}
+
+#area2 {
+    background-image: linear-gradient(#BC70A4, #BFD641);
+}
+
+.Display {
+    display: flex;
+    margin: 15px 20px 15px 20px;
+    padding: 15px 20px 15px 20px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.half-width img {
+    position: right;
+}
+
+#igManager {
+    border-left: 10px;
+    box-shadow: 10px 10px blueviolet;
+}
+
+#Pinmanager {
+    box-shadow: 10px 10px blueviolet;
+}
