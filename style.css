@@ -18,6 +18,7 @@
 
 .bg1 {
     background-image: linear-gradient(#BC70A4, #BFD641);
+    border-radius: 5%;
 }
 
 h1 {
@@ -37,18 +38,40 @@ h1 {
 .half-width {
     width: 50%;
     padding: 10px;
-    text-align: justify;
 }
 
-.half-width img {
-    position: right;
+
+
+
+< !-- .bg2 {
+    background-image: url(Images/Red-Circle.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+-->.experience {
+    width: 40%;
+    margin-left: 10px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(68, 67, 68);
 }
 
 #igManager {
-    border-left: 10px;
-    box-shadow: 10px 10px blueviolet;
+    border-image: linear-gradient(orange, tomato) 30;
+    border-image-slice: 1;
+    border-left: 10px solid;
 }
 
 #Pinmanager {
-    box-shadow: 10px 10px blueviolet;
+    border-image: linear-gradient(rgb(0, 195, 255), tomato) 30;
+    border-image-slice: 1;
+    border-left: 10px solid;
+}
+
+footer p {
+    text-align: center;
 }
